@@ -455,13 +455,13 @@ function changeimage(lcwhichone)
 	{
 		lctempgif = logif.substring(logif.length-7,logif.length);
 		lctempgif = lctempgif.substr(0,2);
-		loobject.src = '/gifs_tower/' + lctempgif +'.gif';
+		loobject.src = 'skyscrapers_files/img/arrow/' + lctempgif +'.gif';
 	}
 	else
 	{
 		lctempgif = logif.substring(logif.length-6,logif.length);
 		lctempgif = lctempgif.substr(0,2);
-		loobject.src = '/gifs_tower/' + lctempgif + 'b.gif';
+		loobject.src = 'skyscrapers_files/img/arrow/' + lctempgif + 'b.gif';
 	}
 	// set focus back in grid
 	loinput = document.getElementById('BBskyscraperinput' + lcrowfocus + lccolfocus);
